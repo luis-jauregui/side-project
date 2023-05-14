@@ -28,13 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
             dgProducts = new DataGridView();
             label1 = new Label();
             label2 = new Label();
             comboBox1 = new ComboBox();
             button1 = new Button();
-            timer1 = new System.Windows.Forms.Timer(components);
             panel1 = new Panel();
             ((System.ComponentModel.ISupportInitialize)dgProducts).BeginInit();
             panel1.SuspendLayout();
@@ -118,7 +116,6 @@
         private Label label2;
         private ComboBox comboBox1;
         private Button button1;
-        private System.Windows.Forms.Timer timer1;
         private Panel panel1;
     }
 }
