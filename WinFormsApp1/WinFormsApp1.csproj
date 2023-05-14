@@ -8,4 +8,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="DAO\" />
+    <Folder Include="Model\" />
+  </ItemGroup>
+
 </Project>
